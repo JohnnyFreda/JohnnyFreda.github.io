@@ -133,3 +133,22 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   .side { position: static; border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; }
   .side ul { margin-bottom: 1.25rem; }
 }
+
+/* ── screenshots ────────────────────────────────────── */
+.shots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0 3rem;
+}
+.shots figure { margin: 0; }
+.shots img {
+  display: block; width: 100%; height: auto;
+  border: 1px solid var(--line); border-radius: 12px;
+  background: var(--bg-card);
+}
+.shots figcaption {
+  margin-top: .75rem; font-size: .8125rem; line-height: 1.6; color: var(--fg-faint);
+  text-wrap: pretty;
+}
+.shots figcaption strong { color: var(--fg-dim); font-family: var(--mono); font-size: .78rem; }
