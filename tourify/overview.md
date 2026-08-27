@@ -12,20 +12,20 @@ shows, a populated social graph.
 
 <div class="shots">
   <figure>
-    <img src="img/discover.webp" width="780" height="1688" loading="lazy"
-         alt="Discover screen: rails of upcoming shows, each card tagged with why it surfaced.">
+    <a href="img/discover.webp" target="_blank" rel="noopener noreferrer"><img src="img/discover.webp" width="546" height="1182" loading="lazy"
+         alt="Discover screen: rails of upcoming shows, each card tagged with why it surfaced."></a>
     <figcaption><strong>Discover</strong> — every card carries its reason: a band you follow,
     your scene, or your taste. Nothing appears without one.</figcaption>
   </figure>
   <figure>
-    <img src="img/show.webp" width="780" height="1688" loading="lazy"
-         alt="Show page: lineup, venue map, going or interested, and who can see it.">
+    <a href="img/show.webp" target="_blank" rel="noopener noreferrer"><img src="img/show.webp" width="546" height="1182" loading="lazy"
+         alt="Show page: lineup, venue map, going or interested, and who can see it."></a>
     <figcaption><strong>A show</strong> — full lineup, venue, and going/interested with
     per-item visibility: public, friends, or only you.</figcaption>
   </figure>
   <figure>
-    <img src="img/social.webp" width="780" height="1688" loading="lazy"
-         alt="Social screen: a rail of recent moments above friends' show activity.">
+    <a href="img/social.webp" target="_blank" rel="noopener noreferrer"><img src="img/social.webp" width="546" height="1182" loading="lazy"
+         alt="Social screen: a rail of recent moments above friends' show activity."></a>
     <figcaption><strong>Social</strong> — moments from the last day, over a feed of what
     friends are going to.</figcaption>
   </figure>

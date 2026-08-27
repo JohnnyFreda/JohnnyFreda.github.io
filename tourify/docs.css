@@ -137,10 +137,13 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 /* ── screenshots ────────────────────────────────────── */
 .shots {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr));
+  gap: 1.25rem;
+  /* Illustrative, not the point of the page -- they sit narrower than the prose. */
+  max-width: 34rem;
   margin: 2.5rem 0 3rem;
 }
+.shots a { border: 0; display: block; }
 .shots figure { margin: 0; }
 .shots img {
   display: block; width: 100%; height: auto;
