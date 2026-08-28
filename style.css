@@ -159,7 +159,9 @@ body {
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 21rem), 1fr));
+  /* Three across on desktop. The old 21rem minimum could only ever fit two
+     columns in this container, so three cards wrapped to 2 + 1. */
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16.5rem), 1fr));
   gap: 1.25rem;
 }
 

@@ -107,36 +107,27 @@
 
       <li class="card">
         <div class="card-head">
-          <h3>ContractKit</h3>
-          <span class="badge badge-live"><span class="dot" aria-hidden="true"></span>live</span>
+          <div class="card-id">
+            <svg class="card-icon" width="34" height="34" viewBox="0 0 24 24"
+                 role="img" aria-hidden="true" focusable="false">
+              <rect width="24" height="24" rx="5.5" fill="#1a1f27"/>
+              <text x="12" y="16.4" text-anchor="middle" fill="#8b98a9"
+                    font-family="ui-monospace, monospace" font-size="9.5"
+                    font-weight="700" letter-spacing="-0.3">DB</text>
+            </svg>
+            <h3>DocBench</h3>
+          </div>
+          <span class="badge badge-wip">design</span>
         </div>
-        <p>Legal contract analysis and field tagging. Paste in contract text, select
-        spans and tag them with typed fields, and export the result as structured JSON
-        ready for downstream processing.</p>
+        <p>A workbench for benchmarking document-extraction pipelines. Define a dataset,
+        a schema and ground truth, then run positional, LLM-based and hybrid pipelines
+        against them and inspect where each one fails. Evaluation is decoupled from
+        extraction, so stored output can be rescored without paying a provider twice.</p>
         <ul class="tags">
-          <li>React</li><li>Vite</li><li>Tailwind</li>
+          <li>Python</li><li>FastAPI</li><li>SQLAlchemy</li>
+          <li>React</li><li>TypeScript</li><li>Textual</li>
         </ul>
-        <p class="card-foot">
-          <a href="https://johnnyfreda.github.io/ContractKit/" target="_blank" rel="noopener noreferrer">live demo <span aria-hidden="true">&#8599;</span></a>
-          <a href="https://github.com/JohnnyFreda/ContractKit" target="_blank" rel="noopener noreferrer">source <span aria-hidden="true">&#8599;</span></a>
-        </p>
-      </li>
-
-      <li class="card">
-        <div class="card-head">
-          <h3>FormFlow</h3>
-          <span class="badge badge-live"><span class="dot" aria-hidden="true"></span>live</span>
-        </div>
-        <p>A schema-driven form builder. Define a JSON schema in the editor, get a
-        live-rendered form with validation, and inspect submissions as structured
-        output — schema in, clean data out.</p>
-        <ul class="tags">
-          <li>React</li><li>Vite</li><li>Tailwind</li>
-        </ul>
-        <p class="card-foot">
-          <a href="https://johnnyfreda.github.io/FormFlow/" target="_blank" rel="noopener noreferrer">live demo <span aria-hidden="true">&#8599;</span></a>
-          <a href="https://github.com/JohnnyFreda/FormFlow" target="_blank" rel="noopener noreferrer">source <span aria-hidden="true">&#8599;</span></a>
-        </p>
+        <p class="card-foot"><span class="muted">private repository</span></p>
       </li>
 
     </ul>
