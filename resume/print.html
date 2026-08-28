@@ -1,0 +1,133 @@
+<!-- Public copy of the resume. The phone number is deliberately absent: this
+     is served on a public site. The version sent directly to people lives
+     outside this repo and keeps it.
+
+     PDF is regenerated from this file with:
+       chromium --headless --disable-gpu --no-pdf-header-footer \
+         --print-to-pdf=John_Freda_Resume.pdf resume/print.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>John Freda — Resume</title>
+<style>
+  @page { size: letter; margin: 0.45in 0.55in; }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Arial, sans-serif; color: #1a1a1a;
+    font-size: 9.7pt; line-height: 1.32; margin: 0; }
+  header { display: flex; justify-content: space-between; align-items: flex-start;
+    border-bottom: 2px solid #2f5b8f; padding-bottom: 5px; margin-bottom: 8px; }
+  header .name { font-size: 20pt; font-weight: 700; letter-spacing: 0.5px; }
+  header .contact { text-align: right; font-size: 9pt; color: #333; line-height: 1.45; }
+  header .contact a { color: #2f5b8f; text-decoration: none; }
+  h2 { color: #2f5b8f; font-size: 10pt; text-transform: uppercase; letter-spacing: 1px;
+    border-bottom: 1px solid #c9d6e5; padding-bottom: 2px; margin: 10px 0 4px; }
+  .role { display: flex; justify-content: space-between; align-items: baseline; margin-top: 6px; }
+  .role .title { font-weight: 700; }
+  .role .title .co { font-weight: 400; }
+  .role .dates { font-size: 8.5pt; color: #555; white-space: nowrap; }
+  ul { margin: 3px 0; padding-left: 16px; }
+  li { margin: 1.5px 0; }
+  p { margin: 3px 0; }
+  .skills li { margin: 2px 0; }
+  .skills b { color: #2f5b8f; }
+  .proj-sub { font-size: 8.5pt; color: #555; font-style: italic; font-weight: 400; }
+  .edu-line { display: flex; justify-content: space-between; margin-top: 2px; }
+  .edu-line .dates { font-size: 8.5pt; color: #555; white-space: nowrap; padding-left: 12px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="name">John Freda</div>
+  <div class="contact">
+    Tampa, FL<br>
+    <a href="mailto:john.m.freda@gmail.com">john.m.freda@gmail.com</a><br>
+    <a href="https://johnnyfreda.github.io">johnnyfreda.github.io</a><br>
+    <a href="https://www.linkedin.com/in/john-freda">linkedin.com/in/john-freda</a>
+  </div>
+</header>
+
+<h2>Summary</h2>
+<p>
+  Software developer with a QA and business-analysis foundation, building full-stack web and
+  cross-platform mobile apps in TypeScript, React/Next.js, React Native, and Python. 5+ years across
+  the software lifecycle&mdash;from API and test automation to shipping production form-authoring tools&mdash;with
+  hands-on DevOps (Docker, Kubernetes, GCP) and a QA-honed eye for reliability.
+</p>
+
+<h2>Skills</h2>
+<ul class="skills">
+  <li><b>Languages:</b> TypeScript, JavaScript, Python, SQL, Bash, HTML5, CSS3</li>
+  <li><b>Frontend &amp; Mobile:</b> React, Next.js (App Router), React Native/Expo, Tailwind CSS, NativeWind</li>
+  <li><b>Backend:</b> Node.js, FastAPI, SQLAlchemy, Prisma, REST APIs, PostgreSQL/PostGIS, JWT/NextAuth, Zod</li>
+  <li><b>DevOps &amp; QA:</b> Docker, Kubernetes, Helm, Git, CI/CD, GCP, Linux, Postman/Newman, Splunk, Jira</li>
+</ul>
+
+<h2>Experience</h2>
+
+<div class="role">
+  <div class="title">Software Developer, <span class="co">Mevi</span></div>
+  <div class="dates">2024 &ndash; Present</div>
+</div>
+<ul>
+  <li>Own, maintain, and develop the company's forms across multiple U.S. state locales, including form upload and publishing</li>
+  <li>Build and maintain <b>Mevi Form Studio</b>, a React app for authoring form-definition JSON
+      (sections, fields, signer roles, rules) that powers the company's Forms platform</li>
+  <li>Built PDF annotation tooling (field, signature, and initial placement) and JSON import/export
+      with reliable round-trip preservation</li>
+  <li>Implemented cloud publishing to multiple Forms environments with a revision browser, per-locale
+      registry validation, and GCP Cloud Storage seed tooling</li>
+</ul>
+
+<div class="role">
+  <div class="title">Quality Assurance Analyst, <span class="co">Vast Bank</span></div>
+  <div class="dates">04/2023 &ndash; 09/2023</div>
+</div>
+<ul>
+  <li>Generated and executed regression, smoke, and exploratory test cases across all production and
+      development environments; coordinated intake testing with middleware and third-party providers</li>
+  <li>Maintained the company website in HubSpot, resolving issues and shipping enhancements with custom CSS and HTML</li>
+</ul>
+
+<div class="role">
+  <div class="title">Senior QA Engineer, <span class="co">Mevi</span></div>
+  <div class="dates">11/2021 &ndash; 02/2023</div>
+</div>
+<ul>
+  <li>Designed Postman/Newman libraries for validating RESTful APIs, integrated into the CI/CD pipeline</li>
+  <li>Traced bugs across services with Splunk/SPL; ran local Docker/Kubernetes/Helm/PostgreSQL environments
+      to support feature development and testing</li>
+</ul>
+
+<div class="role">
+  <div class="title">QA Engineer &amp; Business Analyst, <span class="co">Mevi</span></div>
+  <div class="dates">12/2020 &ndash; 11/2021</div>
+</div>
+<ul>
+  <li>Digitized state/association real-estate contracts into JSON models&mdash;the foundation for the form
+      tooling now built as a developer&mdash;with front-end development and API testing in HTML5/CSS3/JavaScript</li>
+</ul>
+
+<h2>Projects</h2>
+<div class="role">
+  <div class="title">Tourify <span class="proj-sub">&mdash; live-music tour finder (personal)</span></div>
+</div>
+<ul>
+  <li>Cross-platform mobile app (iOS/Android/web) in Expo/React Native, TypeScript, NativeWind, backed by a
+      FastAPI + PostgreSQL/PostGIS API with JWT auth and a scheduled worker for event sync and alerts</li>
+</ul>
+
+<h2>Education</h2>
+<div class="edu-line">
+  <div>Metropolitan State University of Denver &mdash; Computer Science, B.S. (Incomplete)</div>
+  <div class="dates">Fall 2019 &ndash; Summer 2021</div>
+</div>
+<div class="edu-line">
+  <div>St. Petersburg College &mdash; Tarpon Springs, FL &mdash; Associate of Arts</div>
+  <div class="dates">Fall 2018</div>
+</div>
+
+</body>
+</html>

@@ -3,3 +3,4 @@ Thumbs.db
 
 # Generated from tourify/docs/*.md by tourify/build.py at deploy time
 tourify/*.html
+resume/index.html

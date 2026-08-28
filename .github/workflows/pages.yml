@@ -30,6 +30,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r tourify/requirements.txt
       - run: python3 tourify/build.py
+      - run: python3 resume/build.py
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
