@@ -6,7 +6,7 @@ touring nearby, discover shows through the people you know, and go together.
 The source is private. These are the working design documents — the reasoning behind
 the architecture, the data model, and the decisions that shaped it.
 
-**[Try the live demo →](https://tourify-j82w.vercel.app)**
+**[Try the live demo →](https://tourify-demo.vercel.app)**
 Sign in with **Explore the demo** for a seeded account: real venues, real upcoming
 shows, a populated social graph.
 

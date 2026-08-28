@@ -69,7 +69,7 @@ TEMPLATE = """<!DOCTYPE html>
     </ul>
     <h2>Elsewhere</h2>
     <ul>
-      <li><a href="https://tourify-j82w.vercel.app" target="_blank" rel="noopener noreferrer">Live demo &#8599;</a></li>
+      <li><a href="https://tourify-demo.vercel.app" target="_blank" rel="noopener noreferrer">Live demo &#8599;</a></li>
     </ul>
   </nav>
   <article id="doc">
